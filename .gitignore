@@ -44,3 +44,6 @@ next-env.d.ts
 
 # source brochure (large binary — not needed for build/deploy)
 D Evia Kwasa Damansara.pdf
+
+# raw extracted brochure pages (duplicated in public/assets — not used by app)
+/pdf_pages/
