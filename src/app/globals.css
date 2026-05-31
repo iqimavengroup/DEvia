@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply font-body text-brand-charcoal antialiased;
+  }
+
+  h1, h2 {
+    @apply font-display;
+  }
+}
+
+@layer utilities {
+  .section-label {
+    @apply text-brand-gold font-body text-xs uppercase tracking-[0.15em] font-medium;
+  }
+
+  .wave-divider {
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+  }
+}
